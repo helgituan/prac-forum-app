@@ -1,13 +1,11 @@
-import React from 'react'
-import {Button} from "@/components/ui/button";
+import React from "react";
+import HeroSection from "@/components/landing-page/hero-section";
 
 const Page = () => {
-    return (
-        <div>
-            <h1>Hello nextjs </h1>
-            <Button size="lg">press this button</Button>
-
-        </div>
-    )
-}
-export default Page
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  );
+};
+export default Page;
